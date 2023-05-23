@@ -19,5 +19,8 @@
   "devDependencies": {
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
