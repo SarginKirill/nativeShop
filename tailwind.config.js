@@ -13,6 +13,9 @@ module.exports = {
         sans: ['"Space Grotesk"', 'sans-serif'],
         mono: ['"Space Mono"', 'monospace'],
       },
+      pseudoElements: {
+        'after-md': 'after',
+      },
     },
   },
   plugins: [],

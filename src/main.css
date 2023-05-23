@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .w-calc-1 {
+    width: calc(25% - 18px);
+  }
+}
