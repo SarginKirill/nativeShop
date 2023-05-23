@@ -1,4 +1,23 @@
 const body = document.getElementById('card-body');
+const accordText = document.getElementById('description');
+const accord = document.getElementById('accord');
+
+accord.addEventListener('click', showAccordText);
+
+function showAccordText() {
+  if (accordText.classList.contains('hidden')) {
+    accordText.classList.remove('hidden');
+  } else {
+    accordText.classList.add('hidden');
+  }
+
+  accord.removeEventListener('click');
+}
+function hideAccordText() {
+  accordText.classList.add('hidden');
+
+  accord.removeEventListener('click');
+}
 
 function createProductCard(product) {
   const cardContainer = document.createElement('div');
